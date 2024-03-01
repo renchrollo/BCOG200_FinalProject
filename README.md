@@ -1,4 +1,4 @@
-# bcog200_finalproject
+# BCOG200_FinalProject
 Independent Final Project for BCOG 200
 
 **Project Description:**
