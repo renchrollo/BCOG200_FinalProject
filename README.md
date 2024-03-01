@@ -9,7 +9,7 @@ While the nature of this network will be simplistic and not meant for processing
 
 Libraries: NumPy, Pandas, sci-kit-learn, PyTorch, matplotlib
 
-**The listed libraries are tools that are relevant to small and large scale Neural Network development. Certain libraries denoted above might not be included in the final project, and the description will be adjusted as needed.**
+***The listed libraries are tools that are relevant to small and large scale Neural Network development. Certain libraries denoted above might not be included in the final project, and the description will be adjusted as needed.**
 
 
 **Project Functions**
