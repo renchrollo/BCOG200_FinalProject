@@ -7,7 +7,7 @@ My project aims to develop a simple Artificial Neural Network (ANN) for linear a
 
 While the nature of this network will be simplistic and not meant for processing and analyzing large amounts of data, I will take advantage of familiar libraries for smoother development.
 
-Libraries: **NumPy, Pandas, sci-kit-learn, PyTorch, matplotlib**
+Libraries: _**NumPy, Pandas, sci-kit-learn, PyTorch, matplotlib**_
 
 *The listed libraries are tools that are relevant to small and large scale Neural Network development. Certain libraries denoted above might not be included in the final project, and the description will be adjusted as needed.
 
