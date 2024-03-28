@@ -29,7 +29,7 @@ Libraries: _**NumPy, Pandas, sci-kit-learn, PyTorch, matplotlib**_
    - Softmax Function: _s(x_i) = (e^x_i)/(Σ_j=1->n e^x_j)_, this function is comprised of two parts: The Exponential Function and the Normalization Function
    - Exponential Function: _y = e^x_, e represents the base nat. logarithm, x represents the input to the neuron, y represents the output for the output layer neuron.
    - This function distinguishes negative outputs otherwise all assigned the value: 0 when passed through the ReLU activation function, where you can analyze negative outputs while making them distinguishable from positive outputs of the same value (can distinguish 9 from -9).
-   - Normalization Function: y = u/(Σi=1->n u_i), where u represents the output of the exponential function
+   - Normalization Function: _y = u/(Σi=1->n u_i)_, where u represents the output of the exponential function
    - This function yields the probability distribution with inputs from the exponenetial function.
   
 **4. Cost Functions:**
