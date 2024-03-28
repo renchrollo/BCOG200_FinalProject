@@ -3,7 +3,7 @@ Independent Final Project for BCOG 200
 
 **Project Description:**
 
-My project aims to develop a simple Artificial Neural Network (ANN) for linear and non-linear regression tasks. This will be accomplished through developing a feedforward Neural Network structure and using Rectified Linear Unit (ReLU) activation functions for weighted sum calculations. 
+My project aims to develop a simple Artificial Neural Network (ANN) for classification tasks and linear and non-linear regression tasks. This will be accomplished through developing a feedforward Neural Network structure and using Rectified Linear Unit (ReLU) activation functions for weighted sum calculations. 
 
 While the nature of this network will be simplistic and not meant for processing and analyzing large amounts of data, I will take advantage of familiar libraries for smoother development.
 
