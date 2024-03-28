@@ -30,7 +30,7 @@ Libraries: _**NumPy, Pandas, sci-kit-learn, PyTorch, matplotlib**_
    - Exponential Function: _y = e^x_, e represents the base nat. logarithm, x represents the input to the neuron, y represents the output for the output layer neuron.
    - This function distinguishes negative outputs otherwise all assigned the value: 0 when passed through the ReLU activation function, where you can analyze negative outputs while making them distinguishable from positive outputs of the same value (can distinguish 9 from -9).
    - Normalization Function: _y = u/(Σi=1->n u_i)_, where u represents the output of the exponential function
-   - This function yields the probability distribution with inputs from the exponenetial function.
+   - This function yields the probability distribution with inputs from the exponential function.
   
 **4. Cost Functions:**
    - Developing a cost function is critical in any ANN training process. Cost functions provide a measure to the accuracy and consistency of a network by comparing the ANN output to the desired output. By adjusting the network's weights and biases to better predict the data, we can lower cost function and subsequently improve the accuracy of the model's output.
