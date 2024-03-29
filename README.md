@@ -34,6 +34,5 @@ Libraries: _**NumPy, Pandas, sci-kit-learn, PyTorch, matplotlib**_
   
 **4. Cost Functions:**
    - Developing a cost function is critical in any ANN training process. Cost functions provide a measure to the accuracy and consistency of a network by comparing the ANN output to the desired output. By adjusting the network's weights and biases to better predict the data, we can lower cost function and subsequently improve the accuracy of the model's output.
-   - Cost function: _f(x, y) = (x - y)^2_, where x represents the activation value of the output neuron, and y represents the desired activation value for the output neuron. This equation represents the cost function implementation for a single neuron, and must be repeated and combined into a vector depending on the number of neurons in the output layer. 
+   - In this ANN, I will calculate loss functions on two fronts: Loss on Given Predictions and Categorical Cross-Entropy loss for multi-class classification tasks.
 
-**_I'VE INCLUDED THE PRIMARY 3 FUNCTIONS NECESSARY IN NEURAL NETWORK DEVELOPMENT. THERE WILL BE MORE FUNCTIONS APPLIED TO THE FINAL PROJECT. I WILL INCLUDE THE FUNCTION DESCRIPTIONS IN THIS SECTION AS I CONTINUE BUILDING THE NETWORK._**
