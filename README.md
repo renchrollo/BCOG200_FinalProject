@@ -10,7 +10,9 @@ While the nature of this network will be simplistic and not meant for processing
 Libraries: _**NumPy, nnfs, spiral_data**_
 
 *The listed libraries are tools that are relevant to small and large scale Neural Network development. Certain libraries denoted above might not be included in the final project, and the description will be adjusted as needed.
-- 
+- nnfs is a package that allows for random data sampling for testing ANNs.
+- All input and output information is meant to draw patterns between data and highlight specific functions, not to analyze real data
+- Any testing done by the course instructors can be accomplished through this package. Any other potential training data can be given to me.
 
 
 **Project Functions**
