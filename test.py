@@ -14,6 +14,11 @@ def test_Layer_Comp():
     layer = Layer_Comp(3, 3)
     assert layer.weights.shape == (3, 3)
     assert layer.biases.shape == (1, 3)
+
+    layer = Layer_Comp(4, 2)
+    assert layer.weights.shape == (4, 2)
+    assert layer.biases.shape == (1, 2)
+
 def test_Activation_ReLU():
     activation = Activation_ReLU()
 
@@ -24,6 +29,11 @@ def test_Activation_ReLU():
     inputs = np.array([[0, 0], [0, 0]])
     activation.forward(inputs)
     assert np.array_equal(activation.output, np.array([[0, 0], [0, 0]]))
+
+    inputs = np.array([[-1, -2], [-3, -4]])
+    activation.forward(inputs)
+    assert np.array_equal(activation.output, np.array([[0, 0], [0, 0]]))
+
 def test_Activation_SoftMax():
     activation = Activation_SoftMax()
 
@@ -34,6 +44,11 @@ def test_Activation_SoftMax():
     inputs = np.array([[0, 0], [0, 0]])
     activation.forward(inputs)
     assert np.allclose(np.sum(activation.output, axis=1), 1)
+
+    inputs = np.array([[1, 1], [1, 1]])
+    activation.forward(inputs)
+    assert np.allclose(np.sum(activation.output, axis=1), 1)
+
 def test_Loss_CCE():
     loss = Loss_CCE()
 
@@ -42,12 +57,15 @@ def test_Loss_CCE():
     result = loss.forward(y_pred, y_true)
     assert np.allclose(result, np.array([0.35667494, 0.69314718]))
 
-
     y_pred = np.array([[1, 0, 0], [0, 1, 0]])
     y_true = np.array([[1, 0, 0], [0, 1, 0]])
     result = loss.forward(y_pred, y_true)
     assert np.allclose(result, np.full_like(result, 1e-7), atol=1e-7)
 
+    y_pred = np.array([[0.3, 0.3, 0.4], [0.3, 0.4, 0.3]])
+    y_true = np.array([[0, 0, 1], [0, 1, 0]])
+    result = loss.forward(y_pred, y_true)
+    assert np.allclose(result, np.array([0.916290731874155, 0.916290731874155]))
 
 
 if __name__ == "__main__":
